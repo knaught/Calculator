@@ -36,6 +36,7 @@ double operation (char op, double a, double b) 						//Check which operation and
 		return a+b;
 	if (op == '-')
 		return a-b;
+	return 0;
 }
 
 string operate(string input)
